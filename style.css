@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #111111;
+    height: 60px;
+    width : 100vw
+}
+
+.logo{
+    background-color: #1b1f25;
+    border-bottom-left-radius: 14px;
+    height: 100%;
+    width: 14%;
+}
+
+#img1{
+    height: 30%;
+    width: 50%;
+}
+
+.menu
+{
+    background-color: #1b1f25;
+    height:100% ;
+    width: 36%;
+}
+
+.menu a{
+    text-decoration: none;
+    color : white
+}
+
+.item
+{
+    margin-right: 5px;
+    border-radius: 6px;
+    width: 18%;
+    height: 90%;
+    font-weight: 700;
+}
+
+.item2
+{
+    margin-right: 5px;
+    border-radius: 6px;
+    width: 25%;
+    height: 90%;
+    font-weight: 700;
+}
+
+.subs{
+    background-color: #1b1f25;
+    width: 20%;
+    height: 100%;
+    justify-content: left;
+}
+
+.subLogo
+{
+    color: white;
+    height: 100%;
+    width: 15%;
+}
+
+.linkText a
+{
+    font-weight: 500;
+    text-decoration: none;
+    color : white
+}
+
+.profileBox{
+    background-color: #1b1f25;
+    border-bottom-right-radius: 14px;
+    width: 30%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.search
+{
+    padding: 11px;
+    border-radius: 50%;
+}
+
+.langs
+{
+    height: 80%;
+    width:20%;
+    cursor: pointer;
+}
+
+.dropDown{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    width: 60%;
+    height: 80%;
+}
+
+.arrowLogo
+{
+    width:40%;
+    color: white;
+}
+
+.profile
+{
+    background-image: url('profilePhoto.webp');
+    background-size: cover;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 80%;
+    width:auto;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.profile:hover{
+    border: 2px solid white;
+}
+
+.join{
+    background-color: #157bcf;
+    padding:10px;
+    border-radius: 8px;
+}
+
+.join a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+}
+
+.join:hover{
+    background-color:#007185;
+}
+
+.Panel1{
+    padding: 50px;
+    background-image: url('P1_bg.png');
+    background-size: cover ;
+    width:100vw;
+    height:auto;
+    aspect-ratio: 3;
+    background-color:#212121;
+}
+
+.signup{
+    height: 90%;
+    width: 45%;
+    /* background-color: cadetblue; */
+}
+
+.imgBlock{
+    height: 80%;
+    width: 50%;
+    /* background-color:coral; */
+}
+
+.signup_txt{
+    flex-direction: column;
+    height:60% ;
+    width: 100%;
+    color:#fff;
+}
+
+.signup_button{
+    /* background-color: blue; */
+    height: 40%;
+    align-items: start;
+    justify-content: left;
+}
+
+
+#txt1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    font-size: 40px;
+    font-weight:900;
+}
+
+#txt2
+{
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#btn1{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 10px 12px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgb(5, 60, 105);
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+#btn1:hover{
+    color: rgb(49, 46, 46);
+    transform: scale(1.1);
+}
+
+.blank
+{
+    width: 100vw;
+    height: 30px;
+    background-color: #000000;
+}
+
+.panel2{
+    background-image: url('p2_bg.png');
+    background-size:contain;
+    background-position: 228px !important;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: auto;
+    aspect-ratio: 2.5;
+    background-color: black;
+}
+
+.rent
+{
+    color: #fff;
+    padding: 25px;
+    width: 48%;
+    height: 80%;
+}
+
+.imgBlock2{
+    width: 52%;
+    height: 90%;
+}
+
+.rentText{
+    margin-left: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+
+#txt4
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.rentBtn{
+    margin-top: 10px;
+    margin-left:15px ;
+    margin-right: 1px;
+    height:  50%;
+}
+
+#btn2{
+    margin-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 10px 12px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgb(5, 60, 105);
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}
+
+#btn2:hover{
+    color: rgb(49, 46, 46);
+    transform: scale(1.1);
+}
+
+.panel3
+{
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    aspect-ratio:2.5;
+    width: 100vw;
+    height: auto;
+}
+
+.txt_holder
+{
+    padding-top: 60px;
+    height: 100%;
+    width: 48%;
+}
+
+.imgBlock3
+{
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 9px;
+    flex-wrap: wrap;
+}
+
+.box {
+    cursor:pointer;
+    border-radius: 10px;
+    aspect-ratio: 1.45;
+    width: 26%;
+    height: auto;
+    background-color: floralwhite;
+    background-size: contain;
+    background-position: 1px;
+}
+
+
+.box:hover{
+    box-shadow: 0 0px 16px rgba(128, 128, 128, 1);
+}
+
+.foot
+{
+    background-color:#222222;
+    width: 100vw;
+    aspect-ratio: 8;
+    height: auto;
+}
+
+.alogo{
+    background-color: #222222;
+    width: 100vw;
+    height: 30%;
+}
+
+#link a
+{
+    text-decoration: none;
+    height: 100%;
+    color: #699ccb;
+    font-weight: 500;
+}
+
+.copyright
+{
+    font-weight: 500;
+    color: #57728a;
+    font-size: 18px;
+}
